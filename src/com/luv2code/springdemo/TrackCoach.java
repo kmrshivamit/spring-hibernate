@@ -23,5 +23,15 @@ private FortuneService fortuneService;
 		// TODO Auto-generated method stub
 		return "Just do it"+fortuneService.getFortune();
 	}
-
+//add an init method
+	public void doMyStartupStaff()
+	{System.out.println("TrackCoach: indisde method doMyStartup Stuff");
+	
+		
+	}
+	//add a destroy method
+	public void doMyCleanupStuffYoYo()
+	{
+		System.out.println("TrackCoach: Inside method doMyStartupStaff");		
+	}
 }
